@@ -1,9 +1,7 @@
 {
-  "engines": {
-    "node": "18.x"
-  },
   "build": {
     "env": {
+      "SHARP_DIST_BASE_PATH": "/tmp",
       "NEXT_SHARP_PATH": "./node_modules/sharp"
     }
   }
