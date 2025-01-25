@@ -1,0 +1,10 @@
+{
+  "engines": {
+    "node": "18.x"
+  },
+  "build": {
+    "env": {
+      "NEXT_SHARP_PATH": "./node_modules/sharp"
+    }
+  }
+}
